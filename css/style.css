@@ -1,0 +1,389 @@
+      #header{
+        border:2px solid black;
+        background-color: green;
+        max-width: 100%;
+        height: 31px;
+        font-size: 19px;
+        font-weight: bold;
+        display: block;
+        margin-bottom: 10px;
+        padding: 3px 8px;
+      }
+      #header .sbg{
+        float: right;
+        padding-top: 4px;
+        padding-right: 30px;
+        cursor: help;
+      }
+      #header .sbg img{
+        padding-right: 5px;
+      }
+      #header a{
+        text-decoration: none;
+      }
+      #header .img{
+        float: right;
+        height: 31px;
+      }
+      #header a [name='nama_brg']{
+        height: 32px;
+        margin-right: 3px;
+        margin-top: -1px;
+        font-size: 17px;
+      }
+      #header a [placeholder='Cari Barang....']{
+        padding: 2px 3px;
+      }
+      #header a [value='CARI']{
+        margin-top:-1px;
+        height: 32px;
+        float: right;
+        cursor: pointer;
+        width: 80px;
+      }
+      #header a [value='CARI']:hover{
+        font-style: italic;
+        font-weight: bold;
+      }
+      #header a [type='button']{
+        margin-top:-1px;
+        float:left;
+        height: 32px;
+        cursor: pointer;
+        width: 135px;
+      }
+      #header a [type='button']:hover{
+        font-style: italic;
+        font-weight: bold;
+      }
+      #header a [value='LOGIN']{
+        margin-top:-1px;
+        height: 32px;
+        cursor: pointer;
+        width: 80px;
+      }
+      #header a [value='LOGIN']:hover{
+        font-style: italic;
+        font-weight: bold;
+      }
+      #header a [value='SIGN UP']{
+        margin-top:-1px;
+        height: 32px;
+        cursor: pointer;
+        width: 80px;
+      }
+      #header a [value='SIGN UP']:hover{
+        font-style: italic;
+        font-weight: bold;
+      }
+      #header a [value='LOGOUT']{
+        margin-top:-1px;
+        height: 32px;
+        cursor: pointer;
+        width: 80px;
+      }
+      #header a [value='LOGOUT']:hover{
+        font-style: italic;
+        font-weight: bold;
+      }
+          #edit table{
+        border-radius: 10px;
+        border: 2px solid black;
+        background-color: whitesmoke;
+        padding: 15px 15px;
+        box-shadow: 8px 5px 3px;
+    }
+    #edit .judul{
+        font-size: 20px;
+    }
+    #edit [value='KIRIM']{
+        margin-top: 10px;
+        cursor: pointer;
+        width: 100px;
+        float: right;
+        margin-right: 2px;
+    }
+    #edit [value='KIRIM']:hover{
+        font-style: italic;
+        font-weight: bold;
+    }
+    #edit [value='TIDAK']{
+        margin-top: 10px;
+        cursor: pointer;
+        width: 100px;
+        float: right;
+    }
+    #edit [value='TIDAK']:hover{
+        font-style: italic;
+        font-weight: bold;      
+    }
+    #edit [type='file']{
+        cursor: pointer;
+    }
+    #index [type='submit']{
+        cursor: pointer;
+        width: 60px;
+    }
+    #index [type='submit']:hover{
+        font-weight: bold;
+        font-style: italic;
+    }
+    #index [type='button']{
+        cursor: pointer;
+        width: 60px;
+    }
+    #index [type='button']:hover{
+        font-weight: bold;
+        font-style: italic;
+    }
+    #barang [value="Kembali"]{
+      float: right;
+      cursor: pointer;
+      width: 80px;
+    }
+    #barang [value="Kembali"]:hover{
+      font-style: italic;
+      font-weight: bold;
+    }
+    @media print{
+  #bukti .tombol {
+    display: none;
+  }
+}
+#bukti pre{
+  border: 1px solid black;
+  padding: 10px 30px;
+  max-width: 60%;
+  font-size: 16px;
+  margin: 0 auto;
+}
+#bukti table{
+  margin-top: 20px;
+  width: 100%;
+  border: 1px solid black;  
+}
+#bukti table th{
+    border-right: 1px solid #222;
+    border-bottom: 1px solid #222;
+}
+#bukti table td{
+    border-right: 1px solid #222;
+}
+    #tambah table{
+        border-radius: 10px;
+        border: 2px solid black;
+        background-color: whitesmoke;
+        padding: 15px 15px;
+        box-shadow: 8px 5px 3px;
+    }
+    #tambah .judul{
+        font-size: 20px;
+    }
+    #tambah [value='SIMPAN']{
+        margin-top: 10px;
+        cursor: pointer;
+        width: 100px;
+        float: right;
+        margin-right: 2px;
+    }
+    #tambah [value='SIMPAN']:hover{
+        font-style: italic;
+        font-weight: bold;
+    }
+    #tambah [value='BATAL']{
+        margin-top: 10px;
+        cursor: pointer;
+        width: 100px;
+        float: right;
+    }
+    #tambah [value='BATAL']:hover{
+        font-style: italic;
+        font-weight: bold;      
+    }
+    #tambah table tr td [type='file']{
+        cursor: pointer;
+    }
+    #hapus table{
+        border-radius: 10px;
+        border: 2px solid black;
+        background-color: whitesmoke;
+        padding: 15px 15px;
+        box-shadow: 8px 5px 3px;
+    }
+    #hapus .judul{
+        font-size: 20px;
+    }
+    #hapus .setuju{
+        border:2px solid black;
+        padding: 10px 10px;
+        border-radius: 10px;
+    }
+    #hapus [type='submit']{
+        cursor: pointer;
+        width: 100px;
+    }
+    #hapus [type='submit']:hover{
+        font-style: italic;
+        font-weight: bold;
+    }
+    #hapus .link{
+        text-decoration:none;
+    }
+      #login .header{
+        border:2px solid black;
+        background-color: green;
+        max-width: 100%;
+        height: 31px;
+        font-size: 19px;
+        font-weight: bold;
+        display: block;
+        margin-bottom: 10px;
+        padding: 3px 8px;
+      }
+    #login .header a{
+        text-decoration: none;
+      }
+    #login .header [type='button']{
+        margin-top:-1px;
+        float:left;
+        height: 32px;
+        cursor: pointer;
+        width: 135px;
+    }
+    #login .header [type='button']:hover{
+        font-style: italic;
+        font-weight: bold;
+    }
+    #login .header [value='SIGN UP']{
+        margin-top:-1px;
+        float:right;
+        height: 32px;
+        cursor: pointer;
+        width: 80px;
+    }
+    #login .header a [value='LOGOUT']{
+        margin-top:-1px;
+        height: 32px;
+        cursor: pointer;
+        width: 80px;
+     }
+    #login .header a [value='LOGOUT']:hover{
+        font-style: italic;
+        font-weight: bold;
+      }
+    #login table{
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 10px 3px 10px;
+    border: 2px solid black;
+    background-color: whitesmoke;
+    margin-top: 200px;
+    box-shadow: 6px 6px 2px;
+  }
+  #login [value='LOGIN']{
+        margin: 3px 3px;
+        cursor: pointer;
+        font-weight: bold;
+        width: 80px;
+        float: right;
+  }
+  #login [value='LOGIN']:hover{
+    font-style: italic;
+    font-weight: bold;
+  }
+  #login .msg{
+    text-align: center;
+    margin-top: 3px;
+    padding-top: 5px;
+    font-style: italic;
+    font-weight: bold;
+    color: red;
+  }
+  #login [name='nama_member']{
+    border-radius: 5px;
+    padding: 5px 5px;
+    background-color: gainsboro;
+  }
+  #login [type='password']{
+    border-radius: 5px;
+    padding: 5px 5px;
+    background-color: gainsboro;
+  }
+  #login [name='nama_member']:hover{
+    border-color: black;
+  }
+  #login [type='password']:hover{
+    border-color: black;
+  }
+      #sign .header{
+        border:2px solid black;
+        background-color: green;
+        max-width: 100%;
+        height: 31px;
+        font-size: 19px;
+        font-weight: bold;
+        display: block;
+        margin-bottom: 10px;
+        padding: 3px 8px;
+      }
+    #sign .header a{
+        text-decoration: none;
+      }
+    #sign .header [type='button']{
+        margin-top:-1px;
+        float:left;
+        height: 32px;
+        cursor: pointer;
+        width: 135px;
+    }
+    #sign .header [type='button']:hover{
+        font-style: italic;
+        font-weight: bold;
+    }
+    #sign .header [value='LOGIN']{
+        margin-top:-1px;
+        float:right;
+        height: 32px;
+        cursor: pointer;
+        width: 80px;
+    }
+    #sign .header a [value='LOGOUT']{
+        margin-top:-1px;
+        height: 32px;
+        cursor: pointer;
+        width: 80px;
+     }
+    #sign .header a [value='LOGOUT']:hover{
+        font-style: italic;
+        font-weight: bold;
+      }
+    #sign table{
+        border-radius: 10px;
+        border: 2px solid black;
+        background-color: whitesmoke;
+        padding: 15px 15px;
+        box-shadow: 8px 5px 3px;
+    }
+    #sign .judul{
+        font-size: 20px;
+    }
+    #sign [type='submit']{
+        margin-top: 10px;
+        cursor: pointer;
+        width: 80px;
+        float: right;
+    }
+    #sign [type='submit']:hover{
+        font-style: italic;
+        font-weight: bold;
+    }
+    #sign [value='BATAL']{
+        margin-top: 10px;
+        cursor: pointer;
+        width: 80px;
+        float: right;
+    }
+    #sign [value='BATAL']:hover{
+        font-style: italic;
+        font-weight: bold;      
+    }
